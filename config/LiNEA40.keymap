@@ -60,7 +60,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,
+            //スクロール方向を逆転,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -141,7 +141,7 @@
 &lt 4 TAB         &kp W  &kp E           &kp R   &kp T                                    &kp Y             &kp U  &kp I      &kp O        &kp P
 &kp A             &kp S  &kp D           &kp F   &kp G                                    &mt LEFT_SHIFT H  &kp J  &kp K      &kp L        &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X  &kp C           &kp V   &kp B                                    &kp N             &kp M  &kp COMMA  &kp DOT      &kp SLASH
-&kp SQT           &kp Q  &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp LCTRL  &lt 3 SPACE              &trans     &lt 3 SPACE  &kp LBKT
+&kp SQT           &kp Q  &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER  &lt 3 SPACE              &trans     &lt 3 SPACE  &kp LBKT
             >;
         };
 
@@ -162,7 +162,7 @@
 &none  &kp F4   &kp F5   &kp F6   &trans                                     &kp C_VOLUME_DOWN  &mkp LCLK  &lt 6 TAB  &mkp RCLK  &none
 &none  &kp F7   &kp F8   &kp F9   &trans                                     &kp C_MUTE         &none      &none      &none      &none
 &none  &kp F10  &kp F11  &kp F12  &kp LCTRL  &kp LEFT_SHIFT    &kp LEFT_ALT  &trans                        &trans     &none      &none
->;
+            >;
         };
 
         FUNCTION {
@@ -197,5 +197,5 @@
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
-};
+    };
 };
