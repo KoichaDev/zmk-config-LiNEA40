@@ -124,7 +124,7 @@ layers:
   - ENTER
   - {t: SPACE, h: '3'}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: '3'}
+  - '3'
   - '['
   '3':
   - '0'
