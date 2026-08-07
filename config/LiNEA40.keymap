@@ -44,6 +44,13 @@
     quick-tap-ms = <100>;
 };
 
+// commit to hold as soon as another key is pressed+released, instead of the 200ms default wait
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+    quick-tap-ms = <100>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
