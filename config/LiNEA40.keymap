@@ -36,6 +36,13 @@
     acceleration-exponent = <0>;
 };
 
+// resolve tap immediately on release instead of waiting on hold-preferred default
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
+    quick-tap-ms = <100>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
