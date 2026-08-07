@@ -37,16 +37,8 @@
 };
 
 // resolve tap immediately on release instead of waiting on hold-preferred default
-
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <150>;
-    quick-tap-ms = <100>;
-};
-
-// commit to hold as soon as another key is pressed+released, instead of the 200ms default wait
-&lt {
-    flavor = "balanced";
     tapping-term-ms = <150>;
     quick-tap-ms = <100>;
 };
@@ -206,7 +198,7 @@
 &trans  &trans  &trans  &trans  &trans                         &trans          &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans                         &trans          &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &studio_unlock                &trans        &trans        &bt BT_CLR_ALL
-            >;
+>;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
