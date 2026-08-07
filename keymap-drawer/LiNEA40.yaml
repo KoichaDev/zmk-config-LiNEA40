@@ -34,7 +34,7 @@ layers:
   - LEFT GUI
   - Q
   - LEFT SHIFT
-  - INS
+  - {t: ▽, type: trans}
   - LCTRL
   - LEFT ALT
   - LEFT WIN
@@ -76,7 +76,7 @@ layers:
   - '='
   - ']'
   - '0'
-  - {t: ▽, type: trans}
+  - INS
   - LCTRL
   - RIGHT ALT
   - \
@@ -160,7 +160,7 @@ layers:
   - '='
   - ']'
   - '0'
-  - {t: ▽, type: trans}
+  - INS
   - LEFT WIN
   - LEFT ALT
   - \
