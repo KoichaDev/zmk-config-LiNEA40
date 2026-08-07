@@ -43,6 +43,14 @@
     quick-tap-ms = <100>;
 };
 
+// force tap while actively typing so a lingering/slow press of a layer-tap key
+// (e.g. the top-left TAB/MOUSE key) can't bleed a layer hold into the next keystroke
+&lt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    require-prior-idle-ms = <150>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
