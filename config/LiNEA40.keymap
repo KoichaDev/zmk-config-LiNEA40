@@ -58,15 +58,10 @@
     };
 };
 
-&trackball_listener {
-    scroller {
-        layers = <SCROLL>;
-        input-processors =
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,
-            <&zip_xy_to_scroll_mapper>;
-    };
-};
+// scrolling is driven solely by the trackball's native scroll-layers = <6> property
+// (see LiNEA40_right.overlay) - matches zmk-config-Keyball39, which has no extra
+// input-processor chain here either. A prior zip_xy_to_scroll_mapper override on
+// this same layer double-converted the same movement, compounding scroll speed.
 
 / {
     combos {
