@@ -31,13 +31,13 @@ layers:
   - ','
   - .
   - /
-  - LEFT GUI
+  - ''''
   - Q
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - LCTRL
-  - LEFT ALT
   - LEFT WIN
+  - LEFT ALT
+  - ENTER
   - {t: SPACE, h: '1'}
   - {t: ']', h: '7'}
   - {t: ▽, type: trans}
