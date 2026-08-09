@@ -70,7 +70,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,
+            //スクロール方向を逆転,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -138,9 +138,9 @@
         windows_layer {
             bindings = <
 &mouse_lt 4 TAB   &lt WIN_EXTRA W  &kp E           &kp R   &kp T                             &kp Y             &kp U  &kp I                &kp O         &kp P
-&kp A             &kp S  &kp D           &kp F   &kp G                             &mt LEFT_SHIFT H  &kp J  &kp K                &kp L         &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X  &kp C           &kp V   &kp B                             &kp N             &kp M  &kp COMMA            &kp DOT       &kp SLASH
-&kp SQT           &kp Q  &kp LEFT_SHIFT  &trans  &kp LCTRL  &kp LALT    &kp ENTER  &lt 1 SPACE              &lt 7 RIGHT_BRACKET  &kp CAPSLOCK  &kp LBKT
+&kp A             &kp S            &kp D           &kp F   &kp G                             &mt LEFT_SHIFT H  &kp J  &kp K                &kp L         &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X            &kp C           &kp V   &kp B                             &kp N             &kp M  &kp COMMA            &kp DOT       &kp SLASH
+&kp SQT           &kp Q            &kp LEFT_SHIFT  &trans  &kp LCTRL  &kp LALT    &kp ENTER  &lt 1 SPACE              &lt 7 RIGHT_BRACKET  &kp CAPSLOCK  &kp LBKT
             >;
         };
 
@@ -158,9 +158,9 @@
         MAC_DEFAULT {
             bindings = <
 &mouse_lt 4 TAB   &lt MAC_EXTRA W  &kp E           &kp R   &kp T                                    &kp Y             &kp U  &kp I      &kp O         &kp P
-&kp A             &kp S  &kp D           &kp F   &kp G                                    &mt LEFT_SHIFT H  &kp J  &kp K      &kp L         &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X  &kp C           &kp V   &kp B                                    &kp N             &kp M  &kp COMMA  &kp DOT       &kp SLASH
-&kp SQT           &kp Q  &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER  &lt 3 SPACE              &trans     &kp CAPSLOCK  &kp LBKT
+&kp A             &kp S            &kp D           &kp F   &kp G                                    &mt LEFT_SHIFT H  &kp J  &kp K      &kp L         &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X            &kp C           &kp V   &kp B                                    &kp N             &kp M  &kp COMMA  &kp DOT       &kp SLASH
+&kp SQT           &kp Q            &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER  &lt 3 SPACE              &trans     &kp CAPSLOCK  &kp LBKT
             >;
         };
 
@@ -219,19 +219,19 @@
 
         win_extra {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &kp LC(Z)  &kp LC(Y)
+&trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_WIN          &trans  &trans     &trans
             >;
         };
 
         mac_extra {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp LG(Z)  &kp LG(LS(Z))
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans  &trans     &trans
             >;
         };
     };
