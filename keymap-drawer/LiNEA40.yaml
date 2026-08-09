@@ -31,11 +31,11 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - LEFT GUI
   - Q
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - LEFT WIN
+  - LEFT CONTROL
   - LEFT ALT
   - ENTER
   - {t: SPACE, h: '1'}
