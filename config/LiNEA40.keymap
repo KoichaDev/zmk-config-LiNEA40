@@ -29,14 +29,7 @@
     acceleration-exponent = <2>;
 };
 
-//mouse scroll
-
-&msc {
-    delay-ms = <3>;
-    trigger-period-ms = <3>;
-    time-to-max-speed-ms = <100>;
-    acceleration-exponent = <0>;
-};
+// mouse scroll: left at ZMK defaults (matches zmk-config-Keyball39, which doesn't override &msc) - previous custom values scrolled too fast
 
 // resolve tap immediately on release instead of waiting on hold-preferred default
 
