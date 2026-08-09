@@ -35,8 +35,8 @@ layers:
   - Q
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - LEFT ALT
+  - LCTRL
+  - LALT
   - ENTER
   - {t: SPACE, h: '1'}
   - {t: ']', h: '7'}
@@ -154,9 +154,9 @@ layers:
   - '-'
   - Gui+X
   - Gui+C
-  - CAPS
+  - {t: ▽, type: trans}
   - Gui+V
-  - \
+  - {t: ▽, type: trans}
   - '='
   - ']'
   - '0'
@@ -165,8 +165,8 @@ layers:
   - LEFT ALT
   - \
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ']', h: '7'}
+  - CAPSLOCK
   - {t: default, h: toggle}
   '4':
   - {type: held}
