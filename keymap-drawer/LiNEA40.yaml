@@ -2,7 +2,7 @@ layout: {zmk_keyboard: LiNEA40}
 layers:
   windows:
   - {t: TAB, h: '4'}
-  - {t: W, h: win_extra}
+  - W
   - E
   - R
   - T
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: win_extra}
   - S
   - D
   - F
@@ -86,7 +86,7 @@ layers:
   - {t: '2', h: toggle}
   '2':
   - {t: TAB, h: '4'}
-  - {t: W, h: mac_extra}
+  - W
   - E
   - R
   - T
@@ -95,7 +95,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: mac_extra}
   - S
   - D
   - F
@@ -338,7 +338,7 @@ layers:
   - BT CLR ALL
   win_extra:
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -347,7 +347,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+Y
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -380,7 +380,7 @@ layers:
   - {t: ▽, type: trans}
   mac_extra:
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -389,7 +389,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+Z
   - Gui+Sft+Z
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
