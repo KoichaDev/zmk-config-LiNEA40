@@ -136,7 +136,7 @@
 &mouse_lt 4 TAB   &kp W  &kp E           &kp R   &kp T                                    &kp Y             &kp U  &kp I                &kp O    &kp P
 &kp A             &kp S  &kp D           &kp F   &kp G                                    &mt LEFT_SHIFT H  &kp J  &kp K                &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X  &kp C           &kp V   &kp B                                    &kp N             &kp M  &kp COMMA            &kp DOT  &kp SLASH
-&kp LEFT_GUI      &kp Q  &kp LEFT_SHIFT  &trans  &kp LCTRL  &kp LEFT_ALT    &kp LEFT_WIN  &lt 1 SPACE              &lt 7 RIGHT_BRACKET  &trans   &kp LBKT
+&kp SQT           &kp Q  &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER  &lt 1 SPACE              &lt 7 RIGHT_BRACKET  &trans   &kp LBKT
             >;
         };
 
