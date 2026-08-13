@@ -144,10 +144,10 @@
 
         MAC_DEFAULT {
             bindings = <
-&mouse_lt 4 TAB       &kp W  &kp E           &kp R   &kp T                                    &kp Y             &kp U  &kp I      &kp O         &kp P
-&lt MAC_EXTRA A       &kp S  &kp D           &kp F   &kp G                                    &mt LEFT_SHIFT H  &kp J  &kp K      &kp L         &kp SEMICOLON
-&mt LEFT_SHIFT Z      &kp X  &kp C           &kp V   &kp B                                    &kp N             &kp M  &kp COMMA  &kp DOT       &kp SLASH
-&mt LEFT_CONTROL SQT  &kp Q  &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER  &lt 3 SPACE              &trans     &kp CAPSLOCK  &kp LBKT
+&mouse_lt 4 TAB   &kp W  &kp E           &kp R   &kp T                                    &kp Y             &kp U  &kp I      &kp O         &kp P
+&lt MAC_EXTRA A   &kp S  &kp D           &kp F   &kp G                                    &mt LEFT_SHIFT H  &kp J  &kp K      &kp L         &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X  &kp C           &kp V   &kp B                                    &kp N             &kp M  &kp COMMA  &kp DOT       &kp SLASH
+&mt LCTRL SQT     &kp Q  &kp LEFT_SHIFT  &trans  &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER  &lt 3 SPACE              &trans     &kp CAPSLOCK  &kp LBKT
             >;
         };
 
