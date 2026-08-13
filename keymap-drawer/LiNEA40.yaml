@@ -115,7 +115,7 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - {t: '''', h: LEFT CONTROL}
   - Q
   - LEFT SHIFT
   - {t: ▽, type: trans}
