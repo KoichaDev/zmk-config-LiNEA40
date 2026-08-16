@@ -173,26 +173,26 @@ layers:
   - F1
   - F2
   - F3
-  - {t: ▽, type: trans}
+  - F4
   - VOLUME UP
   - ''
   - '&mkp MCLK'
   - Ctl+Z
   - Ctl+Y
   - ''
-  - F4
   - F5
   - F6
-  - {t: ▽, type: trans}
+  - F7
+  - F8
   - VOLUME DOWN
   - '&mkp LCLK'
   - {t: TAB, h: '6'}
   - '&mkp RCLK'
   - ''
   - ''
-  - F7
-  - F8
   - F9
+  - F10
+  - F11
   - {t: ▽, type: trans}
   - MUTE
   - ''
@@ -200,9 +200,9 @@ layers:
   - ''
   - ''
   - ''
-  - F10
-  - F11
   - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LCTRL
   - LEFT SHIFT
   - LEFT ALT
@@ -370,8 +370,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INS
+  - LEFT WIN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT WIN
@@ -412,7 +412,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
