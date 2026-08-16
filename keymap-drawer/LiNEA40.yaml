@@ -156,7 +156,7 @@ layers:
   - Gui+C
   - {t: ▽, type: trans}
   - Gui+V
-  - {t: ▽, type: trans}
+  - \
   - '='
   - ']'
   - '0'
