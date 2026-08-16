@@ -164,10 +164,10 @@
 
         MOUSE {
             bindings = <
-&none  &kp F1   &kp F2   &kp F3   &trans                                     &kp C_VOLUME_UP    &none      &mkp MCLK  &kp LC(Z)  &kp LC(Y)
-&none  &kp F4   &kp F5   &kp F6   &trans                                     &kp C_VOLUME_DOWN  &mkp LCLK  &lt 6 TAB  &mkp RCLK  &none
-&none  &kp F7   &kp F8   &kp F9   &trans                                     &kp C_MUTE         &none      &none      &none      &none
-&none  &kp F10  &kp F11  &kp F12  &kp LCTRL  &kp LEFT_SHIFT    &kp LEFT_ALT  &trans                        &trans     &none      &none
+&none  &kp F1   &kp F2   &kp F3   &kp F4                                     &kp C_VOLUME_UP    &none      &mkp MCLK  &kp LC(Z)  &kp LC(Y)
+&none  &kp F5   &kp F6   &kp F7   &kp F8                                     &kp C_VOLUME_DOWN  &mkp LCLK  &lt 6 TAB  &mkp RCLK  &none
+&none  &kp F9   &kp F10  &kp F11  &trans                                     &kp C_MUTE         &none      &none      &none      &none
+&none  &kp F12  &trans   &trans   &kp LCTRL  &kp LEFT_SHIFT    &kp LEFT_ALT  &trans                        &trans     &none      &none
             >;
         };
 
@@ -206,20 +206,24 @@
 
         win_extra {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &kp LC(Z)  &kp LC(Y)
-&trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &kp L      &trans
-&trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_WIN          &trans  &trans     &trans
+&trans  &trans  &trans  &trans   &trans                          &trans        &trans  &trans  &kp LC(Z)  &kp LC(Y)
+&trans  &trans  &trans  &trans   &trans                          &trans        &trans  &trans  &kp L      &trans
+&trans  &trans  &trans  &trans   &trans                          &trans        &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &kp INS  &kp LEFT_WIN  &trans    &trans  &kp LEFT_WIN          &trans  &trans     &trans
             >;
+
+            sensor-bindings = <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
 
         mac_extra {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp LG(Z)  &kp LG(LS(Z))
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans  &trans     &trans
+&trans  &trans  &trans  &trans   &trans                    &trans  &trans  &trans  &kp LG(Z)  &kp LG(LS(Z))
+&trans  &trans  &trans  &trans   &trans                    &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans   &trans                    &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &kp INS  &trans  &trans    &trans  &trans          &trans  &trans     &trans
             >;
+
+            sensor-bindings = <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
     };
 };
