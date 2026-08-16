@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - {t: '''', h: LCTRL}
   - Q
   - LEFT SHIFT
   - {t: ▽, type: trans}
