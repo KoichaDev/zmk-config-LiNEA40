@@ -69,6 +69,8 @@
         ZenkakuHankaku {
             bindings = <&kp GRAVE>;
             key-positions = <11 12>;
+            // prevent accidental fire when S+D roll during fast typing (e.g. "asd")
+            require-prior-idle-ms = <150>;
         };
 
         DeleteKey {
