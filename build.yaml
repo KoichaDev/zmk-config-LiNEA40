@@ -9,8 +9,11 @@
 #     artifact-name: corne_central
 
 include:
+  # TEMPORARY (branch debug/left-usb-logging): snippet adds the CDC ACM node + logging
+  # Kconfig so the left half prints kscan events over USB serial. Do not merge.
   - board: seeeduino_xiao_ble
     shield: LiNEA40_left rgbled_adapter
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: LiNEA40_right rgbled_adapter
     snippet: studio-rpc-usb-uart
